@@ -47,12 +47,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Release
-        id: setup_release
-        uses: LizardByte/setup-release-action@v2025.612.120948
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
   build_linux_flatpak:
     name: Linux Flatpak
     env:
