@@ -17,6 +17,7 @@
 #include "stream.h"
 #include "upnp.h"
 #include "utility.h"
+#include <cstddef>
 
 using namespace std::literals;
 
