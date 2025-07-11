@@ -3,6 +3,7 @@
  * @brief Definitions for UPnP port mapping.
  */
 // lib includes
+#include <cstddef>
 #include <miniupnpc/miniupnpc.h>
 #include <miniupnpc/upnpcommands.h>
 
@@ -17,7 +18,7 @@
 #include "stream.h"
 #include "upnp.h"
 #include "utility.h"
-#include <cstddef>
+
 
 using namespace std::literals;
 
