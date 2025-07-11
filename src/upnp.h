@@ -3,6 +3,7 @@
  * @brief Declarations for UPnP port mapping.
  */
 #pragma once
+#include <cstddef>
 
 // lib includes
 #include <miniupnpc/miniupnpc.h>
